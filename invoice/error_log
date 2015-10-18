@@ -1,0 +1,1 @@
+[01-Oct-2015 06:05:44 America/Chicago] PHP Fatal error:  Call to a member function select() on a non-object in /home/geoweb/public_html/invoice/functions/getusersname.php on line 5
