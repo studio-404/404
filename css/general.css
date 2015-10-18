@@ -1,3 +1,4 @@
+.clearer{ clear: both; }
 .navbar{ border:0; background-image: none; background-color: #169173; height: 60px; }
 .navbar-header{ border:0; margin: 0; padding: 0; width: 150px; }
 .navbar-brand{ border:0; margin: 0; padding: 0; height: 60px; display: block; float: left; }
@@ -7,7 +8,20 @@
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.open>a{ background-color: #1fae8b !important; background-image: none; box-shadow: none;  }
 .navbar-nav li a:hover{ background-color: #1fae8b !important; }
 .navbar-nav li a{ border:0; height: 60px; padding: 20px 25px 0px 25px; font-family: 'Open Sans'; font-weight: bolder; font-size: 16px; color: #ffffff !important; }
-
+.navbar-inverse .navbar-toggle{ border-color:#cfc735; }
+.turnlanguage{ margin: 14px 0 0 10px; float: right; border: solid 1px #cfc735; color: #cfc735; font-size: 12px; font-family: 'Open Sans'; }
+.turnlanguage a{ padding:6px 10px 0 10px;color: #cfc735; text-align: center; text-decoration: none; display: block; width: 55px; height: 30px; }
+.studio404-header{ height: 60px; }
+.studio404-slider{ margin: 0 0 20px 0; padding: 0; width: 100%; }
+.studio404-slider #owl-demo{ width: 100%; }
+.studio404-slider #owl-demo img{ width: 100%; height: 390px; }
+.owl-theme .owl-controls{ margin-top: -50px !important; }
+.owl-buttons{ display: none !important; }
+.owl-theme .owl-controls .owl-page{ display: block; }
+.owl-theme .owl-controls .owl-page span{ background-color: #56565a !important; height: 5px !important; display: block; border-radius: 0; }
+.owl-theme .owl-controls .owl-page .active span{ border-radius: 0; background-color: #ffffff !important; }
+.owl-theme .owl-controls .owl-page:hover{ cursor: pointer; opacity: 1; background-color: #56565a !important; }
+.owl-theme .owl-controls .owl-page:hover span{ cursor: pointer; opacity: 1; background-color: #56565a !important; }
 @media (max-width:992px) {
 	.navbar-toggle{ margin-top: 13px; }
 	.navbar-header{ width: auto; }
@@ -16,4 +30,5 @@
 	.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse{ max-height: none; }
 	.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{ border-color: #169173; }
 	.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{ background-color: #1fae8b !important; }
+	.turnlanguage{ display: none; }
 }
